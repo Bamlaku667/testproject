@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="/font-awesome/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Merienda:wght@400;700&family=Montserrat:wght@300;400;700&family=Roboto:wght@500;900&family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+</head>
+
+    <body>
+    <header>
+        
+        <div class = "search flex">
+            <form action="" >
+                <label class = "flex">
+                    <input class = "search-box" type="text" name = "search" placeholder="search">
+                    <div class="search-icon"><img src="/images/search-solid-svg (1).svg" alt="search-icon"></div>
+                </label>
+            
+            </form>
+            
+         </div>
+         <input type="checkbox" id = "menu-check" class = "nav-check"> 
+         
+         <nav class = "flex">
+         
+            <label for="menu-check">
+                <img src = "/images/humburger.svg" alt = "menu"   id = "open_menu" class = "humburger"></a>
+             </label> 
+            <ul id = "nav-links" class=" links">
+                 <li><a href="/index.html">Home</a></li>
+                 <li><a href="/html/about.html">About</a></li>
+                 <li><a href="/html/project.html">Projects</a></li>
+                 <li><a href="/html/course.html">Courses</a></li>
+                 <li><a href="/html/learning_site.html">Learning_sites</a></li>
+                 <li><a href="/html/books.html">Books&References</a></li>
+                 <li><a href="/html/contact.html">Contact</a></li>
+            </ul>
+
+             
+         </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class = "container">
+                <h1 class="title">Welcome To My Site</h1>
+               <p>Lorem ipsum dolor sit amet consectetur, 
+                   adipisicing elit. Voluptatum obcaecati 
+                   quisquam iste, fuga quibusdam maiores 
+                   sint saepe neque accusamus minus quae quis 
+                   placeat, recusandae sapiente eum est nam? 
+                   Tempore non porro esse id voluptatem, quidem
+                    harum error iusto repellat cum nisi accusamus 
+                   .</p>
+            </div>
+        </section>
+    </main>
+    <aside class = "see-more">
+        <a id = "see-more-btn" class = "btn"  onclick="show_see_more()">See more<i class= "down-arrow fas fa-angle-double-down"></i></a>
+        <div id = "see-more-content" class="grid">
+            <p class="grid-item grid-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quas molestias, labore eaque numquam at esse repellat pariatur aliquid itaque!Lorem ipsum, Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, repellendus?dolor sit amet consectetur adipisicing elit. Aut, ducimus?</p>
+            <p class="grid-item grid-item-2">Lorem ipsum dolor sit Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repudiandae molestias impedit aliquid, et hic beatae qui quis totam ut.amet Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia, laboriosam! consectetur adipisicing elit. Expedita, odit.</p>
+        </div>
+
+        <a class = "explore-btn btn" href="course.html">Explore<i class="fas fa-long-arrow-alt-right"></i></a>
+
+    </aside>
+
+    <footer>
+        <div class="grid">
+            <div class="grid-item about-me">
+                <h2>About_me</h2>
+                <p class="about-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, tempore.</p>
+            </div>
+            <div class="grid-item related-pages">
+                <h2>Related pages</h2>
+                <ul>
+                    <li><i class="far fa-arrow-alt-circle-right"></i><a href="">Home</a></li>
+                    <li><i class="far fa-arrow-alt-circle-right"></i><a href="">About</a></li>
+                    <li><i class="far fa-arrow-alt-circle-right"></i><a href="">Courses</a></li>
+                    <li><i class="far fa-arrow-alt-circle-right"></i><a href="">Projects</a></li>
+                    <li><i class="far fa-arrow-alt-circle-right"></i><a href="">Books & Reference</a></li>
+                    <li><i class="far fa-arrow-alt-circle-right"></i><a href="">Learning-sites</a></li>
+                    <li><i class="far fa-arrow-alt-circle-right"></i><a href="">Contact-me</a></li>
+                </ul>
+            </div>
+            <div class="grid-item comment">
+                
+                <form action="">
+                    <label for="comment">Comment</label><br>
+                    <textarea name="comment" id="comment" cols="30" rows="3" placeholder="Enter your comment here"></textarea><br>
+                    <input type="submit" name = "comment" value = "send">
+                </form>
+            </div>
+
+            <div class="grid-item contact">
+                <h2>Contact-me</h2>
+                <ul>
+                    <li><i class="far fa-envelope"></i><a href="">bamlakuhiruya@gmail.com</a></li>
+                    <li><i class="fas fa-phone-alt"></i><a href="">+251946461157</a></li>
+                    <li><i class="fas fa-search-location"></i><a href="">Addis Ababa, Ethiopia</a>  </li>
+                    
+                </ul>
+                <div class="social-media">
+                    <div class="media face-book"><a href="www.google.com"><img src="/images/logos/facebook-logo.svg" alt="facebook logo"></a></div>
+                    <div class="media linkedin"><a href=""><img src="/images/logos/linkedin-logo.svg" alt="linkedin logo"></a></div>
+                    <div class="media instagram"><a href=""><img src="/images/logos/instagram-logo.svg" alt="insta logo"></a></div>
+                    <div class="media git-hub"><a href=""><img src="/images/logos/git_hub-logo.svg" alt="git_hub logo"></a></div>
+                </div>
+                
+            </div>
+
+
+            
+
+        </div>
+        <div class="copy-right">copyright<span class = "copy-right-logo"><img src="/images/copyright-solid-svg.svg" alt="copy-right-icon"></span> all rights reserved</div>
+
+    </footer>
+    
+
+
+
+
+</body>
+
+</html>

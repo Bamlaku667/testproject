@@ -1,0 +1,8 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" width="28" height="32">
+	<title>bars-solid-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.s0 { fill: #ffffff } 
+	</style>
+	<path id="Layer" class="s0" d="m0 116v-40c0-8.84 7.16-16 16-16h416c8.84 0 16 7.16 16 16v40c0 8.84-7.16 16-16 16h-416c-8.84 0-16-7.16-16-16zm0 160v-40c0-8.84 7.16-16 16-16h416c8.84 0 16 7.16 16 16v40c0 8.84-7.16 16-16 16h-416c-8.84 0-16-7.16-16-16zm0 160v-40c0-8.84 7.16-16 16-16h416c8.84 0 16 7.16 16 16v40c0 8.84-7.16 16-16 16h-416c-8.84 0-16-7.16-16-16z" />
+</svg>
