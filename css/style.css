@@ -378,7 +378,12 @@ main.projects {
 }
 
 /* cirtificates */
+<<<<<<< HEAD
 
+=======
+.cirtificates {
+}
+>>>>>>> b96f9444005e1b4f2c6808b5c62412e880418746
 .cirtificates h2 {
     font-size: 2em;
     text-align: center;
@@ -391,6 +396,7 @@ main.projects {
     grid-gap: 20px;
     padding: 20px;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+<<<<<<< HEAD
 
 }
 
@@ -415,6 +421,32 @@ main.projects {
    
 }
 
+=======
+
+}
+
+.cirtificate {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+
+.cirtifiacte-image {
+    width: 100%;
+   
+    display: flex;
+    justify-content: center;
+}
+
+.cirtificate img {
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    width: 50%;
+   
+}
+
+>>>>>>> b96f9444005e1b4f2c6808b5c62412e880418746
 .cirtificate p {
     width: 60%;
 }
@@ -583,6 +615,7 @@ table tfoot tr {
     padding: 10px;
 
 }
+<<<<<<< HEAD
 
 /* course-footer logos */
 .logos {
@@ -617,6 +650,15 @@ main.learning-site {
     margin: 0 auto;
     height: 100%;  
 }
+=======
+       /* learning-site */
+
+main.learning-site {  
+    background: none;
+    margin: 0 auto;
+    height: 100%;  
+}
+>>>>>>> b96f9444005e1b4f2c6808b5c62412e880418746
 .learning-site h1 {
     font-size: 4em;
     margin: 10px auto 20px;
@@ -641,11 +683,17 @@ main.learning-site {
     right: 0px;
     top: 0px;
     bottom: 0px;
+<<<<<<< HEAD
     height: 70%;
     width: 70%;
     margin: auto auto;
     box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
 
+=======
+    height: 90%;
+    width: 90%;
+    margin: 0 auto;
+>>>>>>> b96f9444005e1b4f2c6808b5c62412e880418746
 }
 .site a {
     display: inline-block;
